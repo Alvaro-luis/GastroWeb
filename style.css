@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagebackground.jpg") no-repeat;
+  background-size: cover;
+}
+
+.center-text {
+  position: fixed;
+  font-size: 40px;
+  color: white;
+  bottom: 0;
+  left: 15%;
+}
+
+.text-top {
+  position: fixed;
+  color: white;
+  top: 0%;
+  left: 88%;
+}
