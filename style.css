@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagebackground.jpg") no-repeat;
   background-size: cover;
+  filter: contrast(150%);
 }
 
 .center-text {
@@ -8,7 +9,7 @@ body {
   font-size: 40px;
   color: white;
   bottom: 0;
-  left: 15%;
+  left: 5%;
 }
 
 .text-top {
@@ -16,4 +17,107 @@ body {
   color: white;
   top: 0%;
   left: 88%;
+  text-shadow: 3px 3px black;
+}
+
+.buttonl_login{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bold;
+  top: 45%;
+  left: 50%;
+  border-radius: 20px;
+  color: white;
+  background-color: grey;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  padding: 50px ;
+  opacity: 0.8;
+}
+.buttonl_login:hover{
+    background-color: dimgrey;
+    color: whitesmoke;
+}
+
+nav {
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  bottom: 0;
+  left: 40%;
+  display: block;
+  background-color: white;
+
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.menu{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.menu p{
+  color: white;
+  font-size: 25px;
+}
+.menu li:hover{
+  border-color: grey;
+  transform: translate(2%);
+}
+.menu lî:active{
+  border-color: grey;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  border: 10px solid white;
+  border-radius: 5px;
+  padding: 50px;
+}
+.menu h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+#restaurantess{
+  width: 250px;
+}
+
+#pratoss{
+  width: 250px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+  background-color: grey;
+}
+
+form label, form p {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  width: 50%
+}
+
+.checkbox {
+  margin: 20px 0;
 }

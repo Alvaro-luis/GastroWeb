@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>GastroWeb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" id="nomesobrenome" class="inputt-padrao">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" class="inputt-padrao">
+
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" class="inputt-padrao">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea cols="70" rows="10" id="mensagem" class="inputt-padrao"></textarea>
+
+        <div>
+          <p>Como prefere nosso contato ?</p>
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-teledone">Telefone</label>
+
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+
+        </div>
+        <label class="checkbox"><input type="checkbox">Gostaria de receber novidades por email ?</label>
+        <input type="submit" value="Enviar formulario">
+      </form>
+    </main>
+  </body>
+</html>
